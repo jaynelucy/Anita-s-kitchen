@@ -1,0 +1,48 @@
+p {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 100px;
+}
+
+#header {
+  background-image: url("../image/assets/backgrounds/landing.jpg");
+  height: 600px;
+}
+
+#logoBig {
+  padding-top: 40px;
+  padding-left: 370px;
+}
+
+#happy {
+  background-color: #d1d1e0;
+  height:100px;
+}
+
+#party {
+  background-color: #ff8080;
+  height:100px;
+}
+
+#breakfast {
+  background-image: url("../image/assets/foodtop/breakfast.jpg")
+
+}
+
+#lunch{
+  background-image: url("../image/assets/foodtop/breakfast.jpg")
+}
+
+#size{
+  font-size: 14px;
+  font-family: sans-serif;
+}
+#tiptop{
+  margin: auto;
+  padding:  bottom: 500px;
+}
+
+#me{
+  background-image: url("../image/assets/fastFood2.jpg");
+  float: left;
+}

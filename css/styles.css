@@ -4,14 +4,16 @@ p {
   font-size: 100px;
 }
 
+#logoBig {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #header {
   background-image: url("../image/assets/backgrounds/landing.jpg");
   height: 600px;
-}
-
-#logoBig {
-  padding-top: 40px;
-  padding-left: 370px;
+  background-size: cover;
 }
 
 #happy {
@@ -90,40 +92,40 @@ div.background {
 #place {
   text-align: center;
 }
+
 .sidenav {
-   height: 100%;
-   width: 0;
-   position: fixed;
-   z-index: 1;
-   top: 0;
-   left: 0;
-   background-color: #F15A29;
-   overflow-x: hidden;
-   transition: 0.5s;
-   padding-top: 60px;
-   text-align:center;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F15A29;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
 }
 
 .sidenav a {
-   padding: 8px 8px 8px 32px;
-   text-decoration: none;
-   font-size: 25px;
-   color: black;
-   display: block;
-   transition: 0.3s;
-
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
 }
 
-.sidenav a:hover{
-   color: #f1f1f1;
+.sidenav a:hover {
+  color: #f1f1f1;
 }
 
 .sidenav .closebtn {
-   position: absolute;
-   top: 0;
-   right: 25px;
-   font-size: 36px;
-   margin-left: 50px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
 #placer {
@@ -152,16 +154,16 @@ div.box {
   text-align: center;
 }
 
-#footer{
+#footer {
   display: block;
   float: left;
   padding-left: 500px;
   margin-top: 50px;
-
-
 }
-#final{
+
+#final {
   font-size: 14px;
-  color; white;
+  color;
+  white;
   text-align: center;
 }

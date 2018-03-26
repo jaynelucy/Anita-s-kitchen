@@ -2,14 +2,23 @@
 
 <head>
   <title>Anita's Kitchen</title>
+
   <link rel="shortcut icon" href="image/assets/kitchen.png" />
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
 </head>
 
 <body>
   <div class="container">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">Contacts</a>
+      <a href="#">Events</a>
+      <a href="#">Menu</a>
+    </div>
+    <span style="font-size:40px;cursor:pointer;color:black" onclick="openNav()">&#9776;</span>
     <div class="jumbotron" id="header">
       <img id="logoBig" src="image/assets/logoBig.png">
       <p> YOUR HAPPINESS</p>
@@ -146,23 +155,24 @@
         </div>
 
         <div class="background">
-          <p id= "top"><b>Get our daily food items delivered to your email </b></p>
-		<input type="text" name="text1" placeholder="your email" id="input"><button type="button" class="btn btn-secondary btn-lg"> submit</button></h3></p>
+          <p id="top"><b>Get our daily food items delivered to your email </b></p>
+          <input type="text" name="text1" placeholder="your email" id="input"><button type="button" class="btn btn-secondary btn-lg"> submit</button></h3>
+          </p>
 
 
         </div>
         <div class="lastly">
-          <img  id="footer" src="image/assets/footerlogos/logo_white.png">
-        <h2><b>MENU</b></h2>
-        <p id="final"><b>Thats what we are</b></p>
+          <img id="footer" src="image/assets/footerlogos/logo_white.png">
+          <h2><b>MENU</b></h2>
+          <p id="final"><b>Thats what we are</b></p>
           <div class="box">
-          <img src="image/assets/footerlogos/facebook.png">
-          <img src="image/assets/footerlogos/facebook.png">
-          <img src="image/assets/footerlogos/facebook.png">
-          <p id="size">2016 menu restaurant</p>
+            <img src="image/assets/footerlogos/facebook.png">
+            <img src="image/assets/footerlogos/facebook.png">
+            <img src="image/assets/footerlogos/facebook.png">
+            <p id="size">2016 menu restaurant</p>
 
+          </div>
         </div>
-      </div>
 
 
 

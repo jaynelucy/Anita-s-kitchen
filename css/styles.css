@@ -37,6 +37,7 @@ p {
 #size {
   font-size: 14px;
   font-family: sans-serif;
+  text-align: center;
 }
 
 #tiptop {
@@ -163,7 +164,13 @@ div.box {
 
 #final {
   font-size: 14px;
-  color;
-  white;
+  color: white;
+  text-align: justify;
+  font-size: 12px;
+}
+#menu{
+  color: white;
   text-align: center;
+  font-size: 14px;
+  margin-right: 40px;
 }
